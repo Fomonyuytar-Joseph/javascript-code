@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background:gray;
+            }
+             form{
+                max-width:200px;
+                margin:40px auto;
+                background:white;
+                padding:10px;
+            }
+            .plus{
+                margin-left: 50px;
+                padding-left: 30px;
+            }
+            input{
+                display: block;
+                margin:10px auto;
+                padding:4px;
+            }
+            .answer{
+                color:red;
+
+            }
+
+        </style>
+        <title> FUNCTION</title>
+    </head>
+    <body>
+        <form class="add-form">
+            <p>first number</p>
+            <input type="text" name="firstnum" required>
+            <p class="plus">+</p>
+            <p>second number</p>
+            <input type="text" name="secondnum" required>
+            <input type="submit" value="add">
+            <div class="answer"></div>
+            <div class="complain">
+            </div>
+        </form>
+        
+        <script src="addCal.js" ></script>
+    </body>
+</html>
