@@ -16,7 +16,7 @@ form.addEventListener('submit' ,e=>{
   }
   else{
 
-    const result= parseInt(val1) + parseInt(val2);//convert the input values to numbers
+    const result= parseFloat(val1) + parseFloat(val2);//convert the input values to numbers
     console.log(result);
     answer.textContent="the answer is " + result;
   }
