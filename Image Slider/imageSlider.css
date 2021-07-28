@@ -1,0 +1,25 @@
+html{
+    background-color: #333232;
+    height: 100%;
+}
+.container{
+    height: 500px;
+    width:500px;
+    margin: 70px auto; /*margin of 100px from top and centered sideways*/
+    text-align: center;
+    background-color: white;
+    border:5px solid black;
+}
+.image{
+    height: 500px;
+    width:500px;
+    
+}
+#btn{
+    margin: 0 auto;
+   height: 50px;
+   width: 100px;
+   margin: 10px;
+  
+
+}

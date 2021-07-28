@@ -1,10 +1,13 @@
 
 //execise on eloquent javascript to print the triangle
-var str="";
-for(var i=0;i<6;i=i+1){
-    str=str + "#";
-    console.log(str);
-}
+// var str="";
+// for(var i=0;i<6;i=i+1){
+//     str=str + "#";
+//     console.log(str);
+    
+// }
+const array=[1,2,3,4,5];
+console.log(array.length);
 
 
 

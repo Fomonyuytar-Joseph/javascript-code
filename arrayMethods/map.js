@@ -15,6 +15,7 @@ const saleProducts= products.map((product)=>{
 console.log(saleProducts);
 
 
+
 //map method
 // const prices=[10,30,15,25,50,50,40,5];
 //  const salePrices= prices.map((price)=>{
