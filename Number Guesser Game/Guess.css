@@ -1,0 +1,29 @@
+div{
+    display: block;
+    margin: 10px auto;
+    height: 200px;
+    width: 350px;
+    margin-top: 15%;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 5px;
+    border-style: groove ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+p{
+   
+    margin-left: 35px;
+}
+.resultText{
+    margin-left: 105px;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+body{
+    background-color: #eee;
+}
