@@ -78,7 +78,7 @@ class Calculator{
             return `${integerDisplay}.${decimalDigits}`
         }
         else{
-            return previousOperandTextElement.innerText=''
+            return integerDisplay
         }
     }
 
